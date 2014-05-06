@@ -1,0 +1,153 @@
+/* ------------------------------------------------------------------------- *
+ *  Reset - http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126
+ * ------------------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, 
+samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, 
+canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, 
+section, summary, time, mark, audio, video, div { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+/*  links : clear
+/* ------------------------------------ */
+a { text-decoration: none; outline: 0; }
+a:hover { text-decoration: underline; } */
+
+
+/*  base : clear
+/* ------------------------------------ */
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+.group:before, .group:after { content: ""; display: table; }
+.group:after { clear: both; }
+.group { zoom: 1; }
+
+
+/*  base : fonts
+/* ------------------------------------ */
+body { font-family: "Titillium", Arial, sans-serif; }
+
+@font-face {
+	font-family: 'Titillium';
+	src: url('fonts/titillium-light-webfont.eot');
+	src: url('fonts/titillium-light-webfont.svg#titillium-light-webfont') format('svg'),
+		 url('fonts/titillium-light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/titillium-light-webfont.woff') format('woff'),
+		 url('fonts/titillium-light-webfont.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Titillium';
+	src: url('fonts/titillium-lightitalic-webfont.eot');
+	src: url('fonts/titillium-lightitalic-webfont.svg#titillium-lightitalic-webfont') format('svg'),
+		 url('fonts/titillium-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/titillium-lightitalic-webfont.woff') format('woff'),
+		 url('fonts/titillium-lightitalic-webfont.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Titillium';
+	src: url('fonts/titillium-regular-webfont.eot');
+	src: url('fonts/titillium-regular-webfont.svg#titillium-regular-webfont') format('svg'),
+		 url('fonts/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/titillium-regular-webfont.woff') format('woff'),
+		 url('fonts/titillium-regular-webfont.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Titillium';
+	src: url('fonts/titillium-regularitalic-webfont.eot');
+	src: url('fonts/titillium-regularitalic-webfont.svg#titillium-regular-webfont') format('svg'),
+		 url('fonts/titillium-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/titillium-regularitalic-webfont.woff') format('woff'),
+		 url('fonts/titillium-regularitalic-webfont.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+    font-family: 'Titillium';
+    src: url('fonts/titillium-semibold-webfont.eot');
+    src: url('fonts/titillium-semibold-webfont.svg#titillium-semibold-webfont') format('svg'),
+         url('fonts/titillium-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/titillium-semibold-webfont.woff') format('woff'),
+         url('fonts/titillium-semibold-webfont.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+
+
+/*  WRAPPER
+/* ------------------------------------ */
+#wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+        
+}
+
+#inner-wrapper {
+    padding: 0 1em;
+}
+
+
+/*  HEADER
+/* ------------------------------------ */
+#header {
+    margin: 0 -1em 1em;
+    background: red;
+    
+}
+
+
+
+/*  ARTICLES
+/* ------------------------------------ */
+article { 
+    border-bottom:  2px solid #f6f6f6;
+    padding: 0 0 2.5em;
+}
+
+.post header h1 {
+    font: bold 2em 'PT Sans', arial, sans-serif;
+    padding-top: .4em;
+/*    word-spacing: -0.1em;*/
+/*    letter-spacing: -0.05em; */
+    
+}
+
+.post header h1 a {
+    color: #4B6170;
+    margin: 0 0 .236em;
+}
+
+.post .post-meta {
+    margin: 0 0 2.618em 0;
+    font-size: .95em;
+    color: #828282;
+    font-weight: lighter;
+    
+}
+
+.post .entry {
+    font: 300 1em/1.5em 'Merriweather', arial, sans-serif;
+    color: #1c1c1c;   
+    margin: 0 0 1.218em 0;
+}
+
+
+
+.wp-post-image {
+    border-radius: 100%;
+    margin: 0 3em 3em 0; 
+    float:left;
+}
