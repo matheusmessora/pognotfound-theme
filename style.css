@@ -11,14 +11,16 @@ pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q,
 samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, 
 fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, 
 canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, 
-section, summary, time, mark, audio, video, div { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+section, summary, time, mark, audio, video, div { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block; }
 ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 
-
+/*  Responsiveness
+/* ------------------------------------ */
+body { font: 100%/1.5 sans-serif; }
 
 
 /*  links : clear
@@ -37,7 +39,7 @@ a:hover { text-decoration: underline; } */
 
 /*  base : fonts
 /* ------------------------------------ */
-body { font-family: "Titillium", Arial, sans-serif; font-size: 1em;}
+body { font-family: "Titillium", Arial, sans-serif;}
 
 @font-face {
 	font-family: 'Titillium';
@@ -125,7 +127,7 @@ body { font-family: "Titillium", Arial, sans-serif; font-size: 1em;}
 }
 
 #logo img {
-    width: 70%;
+    width: 100%;
 }
 
 
@@ -138,6 +140,7 @@ article {
 
 .post header h1 {
     font-size: 2em;
+    line-height: 1.2em;
     font-weight: bold;
     padding-top: .4em;
     margin-bottom: 0.3em;
@@ -148,23 +151,23 @@ article {
 
 .post header h1 a {
     color: #4B6170;
-    margin: 0 0 .236em;
+    margin: 0;
 }
 
 .post .post-meta {
-    margin: 0 0 2.618em 0;
-    font-size: .95em;
+    margin: 0 0 2.16em 0;
+    font-size: 0.8em;
     color: #828282;
     font-weight: lighter;
     
 }
 
 .post .entry {
-    font-size 1em/1.5em;
+    font-size: 1em;
     font-weight: 300;
     line-height: 1.6em;
     color: #1c1c1c;   
-    margin: 0 0 1.218em 0;
+    margin: 0 0 1.2em 0;
 }
 
 
